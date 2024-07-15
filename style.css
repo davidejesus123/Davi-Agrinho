@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box
+}
 body {
     margin: 0;
     font-family: Verdana, sans-serif;
@@ -81,6 +84,7 @@ nav ul li a:hover {
 body {
     font-family: Verdana, sans-serif; margin:0
 }
+.
 .mySlides {
     display: none
 }
@@ -89,7 +93,6 @@ img {
 }
 /* Slideshow container */
 .slideshow-container {
-  background-color: #444444d2; 
   max-width: 80%;
   position: relative;
   margin: auto;
@@ -119,7 +122,7 @@ img {
   background-color: rgba(0,0,0,0.8);
 }
 /* Caption text */
-.imgtext {
+.text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -157,7 +160,6 @@ img {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -167,11 +169,8 @@ img {
   to {opacity: 1}
 }
 /* On smaller screens, decrease text size */
-@media only screen and (max-width:300px) {
-    .prev, .next, .text{
-        font-size: 11px;
-    }
-}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 .dot{
  height: 10px;
   width: 10px;
@@ -179,4 +178,3 @@ img {
 @media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 14px}
 }
-
