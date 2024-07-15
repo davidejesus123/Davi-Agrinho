@@ -227,3 +227,17 @@ h2 {
 @media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 14px}
 }
+
+.card-conteiner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card {
+    width: 325px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
