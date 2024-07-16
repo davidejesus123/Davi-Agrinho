@@ -262,7 +262,7 @@ h2 {
     line-height: 1.3;
 }
 
-.card-conteiner, .btn{
+.card-conteiner .btn{
     display: inline-block;
     padding: 8px 16px;
     background-color: #333;
