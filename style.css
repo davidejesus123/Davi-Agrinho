@@ -158,58 +158,6 @@ img {
   animation-duration: 1.5s;
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-h2 {
-    margin-top: 0;
-}
-
-@media (min-width: 600px) {
-    .container {
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .card {
-        width: 45%;
-    }
-    
-    .card.left, .card.right {
-        align-self: auto;
-    }
-}
-
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
