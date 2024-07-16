@@ -20,7 +20,7 @@ p{
     margin-left: 200px;
     margin-right: 200px;
     padding: 40px;
-    line-height:1.6 ;
+    line-height:1.6: ;
 }
 
 /* Cabeçalho */
@@ -158,16 +158,102 @@ img {
   animation-duration: 1.5s;
 }
 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    max-width: 90%;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.card.left {
+    margin-left: -800px;
+    align-self: flex-start;
+    animation-name: fadeInLeft;
+}
+
+p {
+    color: rgb(59, 59, 59);
+    line-height: 1.6;
+}
+
+.card.right {
+    margin-right: -800px;
+    align-self: flex-end;
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+h2 {
+    margin-top: 0;
+}
+
+@media (min-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .card {
+        width: 45%;
+    }
+    
+    .card.left, .card.right {
+        align-self: auto;
+    }
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
 /* On smaller screens, decrease text size */
-@media only screen and (max-width:300px) {
-    .prev, .next, .text{
-        font-size: 11px;
-    }
-}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 .dot{
  height: 10px;
   width: 10px;
