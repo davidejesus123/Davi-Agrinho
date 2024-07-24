@@ -2,7 +2,7 @@ body {
   display: flex;
     margin: 0;
     font-family: Verdana, sans-serif;
-    background-color: #f1f7f5;
+    background-color: #e4ece9;
 }
 h1 {text-align: center;
     padding-top: 60px;
@@ -240,6 +240,12 @@ img {
     flex-direction: column;
     justify-content: space-between;
     background-color: hwb(0 100% 0% / 0.205);
+    transition: transform 0.3s ease; /* Adicionado para a animação */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card ao passar o mouse */
+
 }
 
 .image-container {
