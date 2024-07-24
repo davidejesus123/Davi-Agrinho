@@ -17,19 +17,20 @@ h2 {
   color: #2e2e2e;
 }
 
-h3{
-  margin-left: 200px;
-  padding: 10px;
-  color: #585858;
 
-}
 
 h3, .h3g{
-  color: #44694f;
+  color: #4e855f;
 }
 
 h3, .h3r{
-  color: #9e4354;
+  color: #bd586a;
+}
+
+h3 {
+  margin-left: 200px;
+  padding: 10px;
+  color: #585858;
 }
 
 div h3{
@@ -61,7 +62,7 @@ div h3{
   width: 100%;
   display: block;
   opacity: 1;
-  transition: opacity 0.9s;
+  transition: opacity 0.7s;
   height: 640px;
 }
 
@@ -154,9 +155,10 @@ img {
 /* Slideshow container */
 .slideshow-container {
   background-color: #444444d2; 
-  max-width: 80%;
+  max-width: 70%;
   position: relative;
   margin: auto;
+  margin-top: 60px;
 }
 /* Next & previous buttons */
 .prev, .next {
