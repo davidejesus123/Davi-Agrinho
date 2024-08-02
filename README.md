@@ -1,3 +1,3 @@
 # Davi-Agrinho
 
-O meu site basicamente tem materias explicando sobre o agrinho e o tema desse ano, 'relação entre o campo e a cidade', para navegar pelas diferentes paginas e simples, é so usar o cabecalho, na parte inferior tem uns card que também redirecionam para as matérias (que eu fiz), tem também uma materia sobr ONGS, e lá dou exemplo de algumas que atuam no campo e na cidade e deixei liks dos sites oficiais para caso queira ver mais sobre as ONGS e tambem caso queira sua doaçao
+Meu site é dedicado a explicar o projeto Agrinho e o tema deste ano: "Relação entre o Campo e a Cidade". Navegar pelas diferentes páginas é simples: basta utilizar o cabeçalho. Na parte inferior, há cartões que também redirecionam para as matérias que escrevi. Além disso, inclui uma matéria sobre ONGs, onde apresento exemplos de organizações que atuam tanto no meio rural quanto no urbano, com links para seus sites oficiais para que você possa saber mais e fazer doações, se desejar.
